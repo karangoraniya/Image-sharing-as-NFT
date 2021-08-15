@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.ram {
+  background-color: aliceblue;
+  border-radius: 1rem;
+  text-transform: capitalize;
+  border: none;
+  /* min-width: 6rem; */
+  padding: 1.5rem 3rem;
+  
+  cursor: pointer;
+  margin: 0;
+  font-size: 17px;
+  box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+  transition: all 300ms ease-out;
+  text-transform: capitalize;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.view{
+  font-size: 17px;
+  background-color: aliceblue;
+}
+
+.view {
+  border: none;
+  /* min-width: 6rem; */
+  padding: 1.5rem 3rem;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 0;
+  font-size: 17px;
+  box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+  transition: all 300ms ease-out;
+  text-transform: capitalize;
+}
+.view:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.view:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.view:hover,
+.view:focus {
+  color: rebeccapurple;
+  box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+}
+.view:focus {
+  outline: none;
+}
+.view:after {
+  content: "✔️";
+  margin-left: 0.5rem;
+  display: inline-block;
+  color: rebeccapurple;
+  position: absolute;
+  transform: translatey(10px);
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+.view--active:after {
+  opacity: 1;
+  transform: translatey(-2px);
+}

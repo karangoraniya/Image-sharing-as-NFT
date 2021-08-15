@@ -1,0 +1,40 @@
+{
+    "address": "string",
+    "updated_at": "1970-01-01T00:00:00.000Z",
+    "next_update_at": "1970-01-01T00:00:00.000Z",
+    "quote_currency": "string",
+    "uniswap_v2": {
+      "balances": [
+        {
+          "token_0": {
+            "contract_decimals": 0,
+            "contract_ticker_symbol": "string",
+            "contract_address": "string",
+            "logo_url": "string",
+            "balance": 0,
+            "quote": 0.5,
+            "quote_rate": 0.5
+          },
+          "token_1": {
+            "contract_decimals": 0,
+            "contract_ticker_symbol": "string",
+            "contract_address": "string",
+            "logo_url": "string",
+            "balance": 0,
+            "quote": 0.5,
+            "quote_rate": 0.5
+          },
+          "pool_token": {
+            "contract_decimals": 0,
+            "contract_ticker_symbol": "string",
+            "contract_address": "string",
+            "logo_url": "string",
+            "balance": 0,
+            "quote": 0.5,
+            "quote_rate": 0.5,
+            "total_supply": 0
+          }
+        }
+      ]
+    }
+  }
